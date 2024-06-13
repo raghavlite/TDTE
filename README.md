@@ -3,8 +3,8 @@ Carefully install the requirements and follow the instructions from gritlm.
 Specifically, you need to use a modified **modelling_mistral_gritlm.py** in your transformers library to enable bidirectional attention. Module requirements are same as gritlm.
 
 ## Model Details
-- TTDE model uses a base bidirectional mistral model + lora adapters.
-- It is trained using transformed versions of publically available retrieval datasets. TTDE dataset will be released soon. 
+- TDTE model uses a base bidirectional Mistral7Bv0.2 + Lora adapter.
+- It is trained using transformed versions of publically available retrieval datasets. TDTE dataset will be released soon. 
 
 ## using mteb evaluation script
 ```
