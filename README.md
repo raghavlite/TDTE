@@ -4,6 +4,7 @@ Specifically, you need to use a modified **modelling_mistral_gritlm.py** in your
 
 
 TTDE model uses a base bidirectional mistral model + lora adapters.
+
 It is trained using transformed versions of publically available retrieval datasets. TTDE dataset will be released soon. 
 
 #using mteb evaluation script
