@@ -4,7 +4,7 @@ import torch
 
 
 kwargs = {
-    "model_name_or_path": "raghavlight/TDTE",
+    "model_name_or_path": "<HUGGINFACE_MODEL_PATH>",
     # Normalizing embeddings here. Not needed inside eval_mteb.
     "normalized": True,
     "mode": "embedding",

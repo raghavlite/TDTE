@@ -4,11 +4,12 @@ Specifically, you need to use a modified **modelling_mistral_gritlm.py** in your
 
 ## Model Details
 - TDTE model uses a base bidirectional Mistral7Bv0.2 + Lora adapter.
-- It is trained using transformed versions of publically available retrieval datasets. TDTE dataset will be released soon. 
+- It is trained using transformed versions of publically available retrieval datasets. TDTE dataset will be released soon.
+- More details coming soon
 
 ## using mteb evaluation script
 ```
-python ./eval_mteb.py --model_name_or_path raghavlight/TDTE  --instruction_set e5 --instruction_format mistral --task_names ArguAna --attn bbcc --attn_implementation sdpa --batch_size 32
+python ./eval_mteb.py --model_name_or_path <HUGGINFACE_MODEL_PATH>  --instruction_set e5 --instruction_format mistral --task_names ArguAna --attn bbcc --attn_implementation sdpa --batch_size 32
 ```
 
 ## example usage
